@@ -12,7 +12,7 @@ html{
 
 .hero-Image{
     height: 130vh;
-    background: url(../../images/hero-image.jpg) no-repeat center/cover;
+    background: url(../../Assets/hero-image-min.jpg) no-repeat center/cover;
 }
 .nav-background{
     height: 15vh;

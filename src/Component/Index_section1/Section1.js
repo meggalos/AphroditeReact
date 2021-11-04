@@ -1,6 +1,6 @@
 import React from 'react'
 import './section1.css';
-import Laptop from '../../images/Laptop.png';
+import Laptop from '../../Assets/laptop-min.png';
 
 const Section1 = () => {
     return (
