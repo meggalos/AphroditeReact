@@ -1,6 +1,8 @@
 import React from 'react'
 import Logo from '../../Assets/Logo1-min.png'
 import './header.css';
+import { Link } from 'react-router-dom';
+import Login from './../login/login';
 
 const header = () => {
     return (
@@ -10,7 +12,9 @@ const header = () => {
                     <img src={Logo} alt="Aphrodite logo"/>
                 </div>
                 <div class="btn-signIn">
-                    <button>Sign In</button>
+                    <Link to={<Login />}>
+                        <button>Sign In</button>
+                    </Link> 
                 </div>
             </div> 
             <div class="hero-content">
@@ -23,7 +27,10 @@ const header = () => {
                     Don't have an account yet? Sign Up now and <br/>
                     get up to meet your new partner.
                 </p>
-                <button>GET STARTED</button>
+                <Link to="/signup">
+                    <button>GET STARTED</button>
+                </Link> 
+            
             </div>
         </div>
     )
