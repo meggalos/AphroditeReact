@@ -1,0 +1,30 @@
+
+
+
+.terms_and_conditions_container{
+    margin:50px;
+    font-weight:700px;
+    font-size:20px;
+    line-height: 45px;
+}
+
+.terms_and_conditions_container h2{
+    /* text-align: center; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:black;
+   
+}
+.terms_and_conditions_container p{
+    color:black;
+}
+.terms_and_conditions_container h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.terms_and_conditions_container{
+    padding-bottom: 10%;
+}
+.fix-color{
+    color: red;
+}
