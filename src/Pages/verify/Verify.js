@@ -12,8 +12,8 @@ const Verify = () => {
         <h2>Verify Your Account</h2>
         <br /><br />
         <p>
-          Please verify your page with a photo. This will help<br />
-          us to stop catfishing
+          Please verify your page with a photo,This will help<br />
+          us to stop catfishing.
         </p>
         <br /><br />
         <button><h4>Verify</h4></button>

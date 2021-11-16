@@ -23,6 +23,10 @@
     color: orangered;
     margin-top: 3rem;
   }
+
+  p{
+    color: black;
+  }
   
   li a btn {
     border-radius: 6px;

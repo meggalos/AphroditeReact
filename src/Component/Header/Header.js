@@ -24,7 +24,7 @@ const header = () => {
                     Don't have an account yet? Sign Up now and <br/>
                     get up to meet your new partner.
                 </p>
-                <Link to ='/verify'><button> GET STARTED</button></Link>
+                <Link to ='/verify'><button>GET STARTED</button></Link>
             </div>
         </div>
     )
