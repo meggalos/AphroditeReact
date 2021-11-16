@@ -13,7 +13,7 @@ const Section1 = () => {
                 Meeting People should not be a<br/>
                 very hard task
             </p>
-            <div class="laptop-love-img">
+            <div className="laptop-love-img">
                 <img src={Laptop} alt="love"/>
             </div>
             <div className='section-two'></div>
