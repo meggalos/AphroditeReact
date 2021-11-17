@@ -52,6 +52,13 @@ body{
     width: 300px;
 }
 
+#myMediaLogo{
+    display:flex;
+    width: 200px;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+}
 /* *******Second session in main */
 
 .second-section{
@@ -96,6 +103,11 @@ input{
     cursor: pointer;
     border-style: hidden;
     box-shadow: none;
+    width: 100%;
+    padding: 15px;
+    /* margin-bottom: 20px; */
+    border: none;
+    border-radius: 5px;
 }
 form #grey-color{
     color:rgb(187, 179, 179);

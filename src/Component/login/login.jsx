@@ -1,7 +1,7 @@
 import React from "react";
 import "./login.css";
 import { Formik } from 'formik';
-import Google from '../../Assets/fb-icon.png';
+import Google from '../../Assets/google-icon.png';
 import  Twitter from '../../Assets/twitter-icon.png';
 import  Facebook from '../../Assets/fb-icon.png';
 import  AproditeLogo from '../../Assets/Logo1-min.png';
@@ -25,7 +25,7 @@ const Login = () => {
 			</section>
 			<section className="second-section">
 				<div className="sign-card">
-				<Formik
+					<Formik
                         initialValues={{ email: '', password: '' }}
                         validate={values => {
                             const errors = {};
@@ -40,33 +40,60 @@ const Login = () => {
                         }}
                         onSubmit={(values, { setSubmitting }) => {
                             setTimeout(() => {
-                            // alert(JSON.stringify(values, null, 2));
+                            alert(JSON.stringify(values, null, 2));
                             setSubmitting(false);
                             }, 400);
                         }}
                         >
-					<form>
-						<p id="not-grey">Login to your account to start matching</p>
-						<p>Email or Phone number</p>
-						<input type="text" />
-						<p>Password</p>
-						<input type="password" />
-						<h6>Forgot Password?</h6>
-						<div id="mediaLogin">
-							<p id="grey-color">
-								Or <span id="not-grey">Login</span> with
-							</p>
-							<div id="myMediaLogo">
-                                <img width="45px" height="45px" src={Twitter} alt="logo"/>
-                                <img width="45px" height="45px" src={Google} alt="logo"/>
-                                <img width="45px" height="45px" src={Facebook} alt="logo"/>
-							
-							</div>
-						</div>
-						<a href="/messages.html">
-							<input type="button" value="Sign In" id="in-button" />
-						</a>
-					</form>
+							 {({
+								values,
+								errors,
+								touched,
+								handleChange,
+								handleBlur,
+								handleSubmit,
+								isSubmitting,
+							}) => (
+								<form onSubmit={handleSubmit}>
+								<p id="not-grey">Login to your account to start matching</p>
+								<p>Email</p>
+								<input
+									type="email"
+									name="email"
+									onChange={handleChange}
+									onBlur={handleBlur}
+									value={values.email}
+								/>
+								{errors.email && touched.email && errors.email}
+								<p>Password</p>
+								<input 
+									type="password"
+									name="password"
+									onChange={handleChange}
+									onBlur={handleBlur}
+									value={values.password} 
+								/>
+								{errors.password && touched.password && errors.password}
+								<h6>Forgot Password?</h6>
+								<div id="mediaLogin">
+									<p id="grey-color">
+										Or <span id="not-grey">Login</span> with
+									</p>
+									<div id="myMediaLogo">
+										<img width="45px" height="45px" src={Twitter} alt="logo"/>
+										<img width="45px" height="45px" src={Google} alt="logo"/>
+										<img width="45px" height="45px" src={Facebook} alt="logo"/>
+									
+									</div>
+								</div>
+								<a href="/messages.html">
+								<button id="in-button" type="submit" disabled={isSubmitting}>
+									Sign In
+								</button>
+									{/* <input type="button" value="Sign In" id="in-button" /> */}
+								</a>
+								</form>
+							)}
 					</Formik>
 				</div>
 			</section>
