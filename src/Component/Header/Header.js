@@ -2,35 +2,35 @@ import React from 'react'
 import Logo from '../../Assets/Logo1-min.png'
 import './header.css';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import Login from './../login/login';
+=======
+>>>>>>> master
 
 const header = () => {
     return (
-        <div class="hero-Image">
-            <div class="nav-background">
-                <div class="logo">
-                    <img src={Logo} alt="Aphrodite logo"/>
+        <div className={headerOne.heroImage}>
+            <div className={headerOne.navBackground}>
+                <div>
+                    <img className={headerOne.logo} src={Logo} alt="Aphrodite logo"/>
                 </div>
-                <div class="btn-signIn">
-                    <Link to={<Login />}>
-                        <button>Sign In</button>
-                    </Link> 
+                <div>
+                   <Link to={<Login />}> <button className={headerOne.btnSignIn}>Sign In</button> </Link> 
                 </div>
             </div> 
-            <div class="hero-content">
-                <h1>
+            <div className={headerOne.heroContent}>
+                <h1 className={headerOne.heroH1}>
                     Meet new People and <br/>
                     explore the world <br/>
                     anytime, anywhere!
                 </h1>
-                <p>
+                <p className={headerOne.heroPara}>
                     Don't have an account yet? Sign Up now and <br/>
                     get up to meet your new partner.
                 </p>
                 <Link to="/signup">
-                    <button>GET STARTED</button>
+                <button className={headerOne.heroGetStarted}>GET STARTED</button>
                 </Link> 
-            
             </div>
         </div>
     )

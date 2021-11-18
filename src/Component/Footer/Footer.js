@@ -1,21 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './Footer.css'
+import footer from './footer.module.css'
+import About_us_page from '../../Pages/AboutPage/About_us_page';
 
-const Footer = () => {
+
+const footerSection = () => {
     const myStyle = {color: 'red', fontSize: '3rem'};
     return (
         <div>
-            <div class="footer-one">
-                <div class="footer-one-content">
-                    <Link className="link" to="/">About Us</Link>
-                    <Link className="link" to="/">Contact Us</Link>
-                    <Link className="link" to="/">Terms &#38; Conditions</Link>
-                    <Link className="link" to="/">Privacy &#38; Policy</Link>
+            <div className={footer.footerOne}>
+                <div className={footer.footerOneContent}>
+                    <Link className={footer.link} to="/About_us_page">About Us</Link>
+                    <Link className={footer.link} to="/">Contact Us</Link>
+                    <Link className={footer.link} to="/Terms_and_Conditions.jsx">Terms &#38; Conditions</Link>
+                    <Link className={footer.link} to="/">Privacy &#38; Policy</Link>
                 </div>
             </div>
-            <div class="footer-two">
-                <div class="footer-two-content">
+            <div class={footer.footerTwo}>
+                <div class={footer.footerTwoContent}>
                     <p> &copy;2021</p>
                     <p style={myStyle}> <b>Aphrodite</b></p>
                     <p> All Rights Reserved.</p>
@@ -25,4 +27,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default footerSection

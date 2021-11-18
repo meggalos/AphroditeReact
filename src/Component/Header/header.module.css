@@ -10,11 +10,11 @@ html{
     color: white;
 }
 
-.hero-Image{
+.heroImage{
     height: 130vh;
     background: url(../../Assets/hero-image-min.jpg) no-repeat center/cover;
 }
-.nav-background{
+.navBackground{
     height: 15vh;
     width: 92%;
     margin: 0 auto;
@@ -22,10 +22,10 @@ html{
     justify-content: space-between;
     align-items: center;
 }
-.logo img{
+.logo{
     height: 8vh;
 }
-.btn-signIn button{
+.btnSignIn{
     height: 8vh;
     width: 16rem;
     font-size: 2.3rem;
@@ -34,7 +34,7 @@ html{
     border: #ff5400;
     border-radius: 0.8rem;
 }
-.hero-content{
+.heroContent{
     height: 115vh;
     /* background-color: blue; */
     display: flex;
@@ -44,18 +44,18 @@ html{
     position: relative;
     top: -4rem;
 }
-.hero-content h1{
+.heroH1{
     font-size: 5rem;
     text-align: center;
     line-height: 1;
 }
-.hero-content p{
+.heroPara{
     margin-top: 5rem;
     font-size: 2rem;
     text-align: center;
     line-height: 1.2;
 }
-.hero-content button{
+.heroGetStarted{
     margin-top: 2rem;
     padding: 1.5rem 8rem;
     font-weight: 700;
