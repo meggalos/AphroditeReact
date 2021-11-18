@@ -1,8 +1,8 @@
 import React from 'react'
-import About_Header from "../../Component/ekemini_about_us_pages/ekemini_about_us_page_header/About_page_header"
+import About_Header from "../../Component/ekemini_about_us_pages/ekemini_about_us_page_header/AboutUsHeader"
 import About_Section_1 from "../../Component/ekemini_about_us_pages/ekemini_about_us_page_section_1/About_page_section_1"
 import About_Section_2 from "../../Component/ekemini_about_us_pages/ekemini_about_us_page_section_2/About_page_section_2"
-import About_Footer from "../../Component/ekemini_about_us_pages/ekemini_about_us_page_footer/about_us_page_footer";
+import About_Footer from "../../Component/ekemini_about_us_pages/ekemini_about_us_page_footer/AboutUs";
 
 
  function About_us_page() {

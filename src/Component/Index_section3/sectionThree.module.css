@@ -9,39 +9,41 @@ html{
     font-family:"Poppins";
     color: white;
 }
-.section-three{
+.section{
     height: 80vh;
     background-color: #f4f4f4;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-row: inherit;
 }
-.section-three .left{
+.left{
     grid-row: 1;
     grid-column: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.section-three .right{
+.right{
     grid-row: 1;
     grid-column: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.img-privacy{
-    height: 65%;
+.imgPrivacy{
+    margin-top: 100px;
+    height: 150%;
     background: url(../../Assets/National-Privacy-Day-1280x720\ 1-min.jpg) no-repeat center/cover;
 }
-.content-privacy{
+.contentPrivacy{
+    margin-top: 100px;
     height: 65%;
     color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.content-privacy h1{
+.contentPrivacyH1{
     font-size: 4rem;
     font-weight: bolder;
 }

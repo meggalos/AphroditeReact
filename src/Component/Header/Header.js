@@ -1,29 +1,29 @@
 import React from 'react'
 import Logo from '../../Assets/Logo1-min.png'
-import './header.css';
+import headerOne from './header.module.css';
 
 const header = () => {
     return (
-        <div class="hero-Image">
-            <div class="nav-background">
-                <div class="logo">
-                    <img src={Logo} alt="Aphrodite logo"/>
+        <div className={headerOne.heroImage}>
+            <div className={headerOne.navBackground}>
+                <div>
+                    <img className={headerOne.logo} src={Logo} alt="Aphrodite logo"/>
                 </div>
-                <div class="btn-signIn">
-                    <button>Sign In</button>
+                <div>
+                    <button className={headerOne.btnSignIn}>Sign In</button>
                 </div>
             </div> 
-            <div class="hero-content">
-                <h1>
+            <div className={headerOne.heroContent}>
+                <h1 className={headerOne.heroH1}>
                     Meet new People and <br/>
                     explore the world <br/>
                     anytime, anywhere!
                 </h1>
-                <p>
+                <p className={headerOne.heroPara}>
                     Don't have an account yet? Sign Up now and <br/>
                     get up to meet your new partner.
                 </p>
-                <button>GET STARTED</button>
+                <button className={headerOne.heroGetStarted}>GET STARTED</button>
             </div>
         </div>
     )
