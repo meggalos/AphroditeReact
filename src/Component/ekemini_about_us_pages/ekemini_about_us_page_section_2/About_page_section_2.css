@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+.section-two{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 415px;
+    width: 100%; 
+    color:black;
+    font-size: 20px;
+}
+.section-two p{
+    margin:50px;
+}
+
