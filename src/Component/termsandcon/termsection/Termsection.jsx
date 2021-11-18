@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "./Terms_page_section.css"
+import "./Termsection.css"
 
  function Terms_page_section() {
     return (

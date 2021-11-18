@@ -1,7 +1,7 @@
 import React from 'react'
-import "./About_page_section_1.css"
+import "./Aboutsectionone.css"
 
- function About_page_section_1() {
+ function Aboutsectionone() {
     return (
         <div>
             
@@ -24,5 +24,5 @@ import "./About_page_section_1.css"
         </div>
     )
 }
-export default About_page_section_1;
+export default Aboutsectionone;
 

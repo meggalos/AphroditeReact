@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from "../../ekemini_about_us_pages/ekemini_about_us_page_header/About_page_header"
+import Header from "../../aboutus/aboutusheader/AboutHeader"
 // import "./Terms_page_header.css"
 // import Logo from "../../../Assets/Logo-min.png"
 

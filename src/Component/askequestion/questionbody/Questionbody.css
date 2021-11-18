@@ -1,0 +1,15 @@
+
+.top-message{
+    margin: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.text-body{
+    margin: 30px;
+    font-size: 18px;
+    color: black;
+}
+.text-body p{
+    font-size: 17px;
+}
