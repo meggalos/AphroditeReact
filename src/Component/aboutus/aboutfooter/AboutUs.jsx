@@ -1,8 +1,8 @@
 import React from 'react'
-import "./about_us_page_footer.css"
+import "./Aboutfooter.css"
 
 
- function about_us_page_footer() {
+ function Aboutfooter() {
     return (
         <div>
             
@@ -11,9 +11,9 @@ import "./about_us_page_footer.css"
                    
                         <div className="one">
                             <ul>
-                                <li><a>About Us</a></li>
+                                <li><a href="Aboutpage.jsx">About Us</a></li>
                                 <li><a>Contact Us</a></li>
-                                <li><a href="Terms_and_Conditions.jsx">Terms & Conditions</a></li>
+                                <li><a href="Termscon.jsx">Terms &#38; Conditions</a></li>
                                 <li><a>Privacy Policy</a></li>
                             </ul>
                         </div>
@@ -32,4 +32,4 @@ import "./about_us_page_footer.css"
 }
 
 
-export default about_us_page_footer;
+export default Aboutfooter;

@@ -1,8 +1,8 @@
 import React from 'react'
 // import "./About_page_section_2.css"
-import "./About_page_section_2.css"
+import "./Aboutsectiontwo.css"
 
-function About_page_section_2() {
+function Aboutsectiontwo() {
     return (
         <div>
             <div className="section-two">
@@ -19,4 +19,4 @@ function About_page_section_2() {
     )
 }
 
-export default About_page_section_2;
+export default Aboutsectiontwo;
