@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../Assets/Logo1-min.png'
-import headerOne from './header.module.css';
+import './header.css';
+import { Link } from 'react-router-dom';
 
 const header = () => {
     return (
@@ -23,7 +24,7 @@ const header = () => {
                     Don't have an account yet? Sign Up now and <br/>
                     get up to meet your new partner.
                 </p>
-                <button className={headerOne.heroGetStarted}>GET STARTED</button>
+                <Link to ='/verify'><button className={headerOne.heroGetStarted}>GET STARTED</button></Link>
             </div>
         </div>
     )
