@@ -9,7 +9,7 @@ html{
     font-family:"Poppins";
     color: white;
 }
-.section-one{
+.sectionOne{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,24 +18,24 @@ html{
     flex-direction: column;
     text-align: center;
 }
-.section-one h2{
+.sectionOneH2{
     font-size: 3.5rem;
     line-height: 1.2;
     position: relative;
     top: 15rem;
 }
-.section-one p{
+.sectionOneP{
     margin-top: 3rem;
     font-size: 1.6rem;
     line-height: 1.2;
     position: relative;
     top: 15rem;
 }
-.laptop-love-img img{
+.laptopImg{
     height: 60rem;
     position: relative;
     top: 10rem;
 }
-.section-two{
+.sectionTwo{
     height: 30vh;
 }

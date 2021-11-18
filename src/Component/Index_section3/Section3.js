@@ -1,11 +1,11 @@
 import React from 'react'
-import './Section3.css'
+import sectionThree from'./sectionThree.module.css'
 
 const Section3 = () => {
     return (
-        <div className='section-three'> 
-            <div class="left">
-                <div class="content-privacy">
+        <div className={sectionThree.section}> 
+            <div className={sectionThree.left}>
+                <div className={sectionThree.contentPrivacy}>
                     <h1>
                         Say good-bye to other apps <br/>
                         that don't value privacy and <br/>
@@ -13,11 +13,11 @@ const Section3 = () => {
                     </h1>
                 </div>
             </div>
-            <div class="right">
-                <div class="img-privacy">
+            <div className={sectionThree.right}>
+                <div className={sectionThree.imgPrivacy}>
                 </div>
             </div>
-            <div class="section-four"></div>
+            <div className={sectionThree.sectionFour}></div>
         </div>
     )
 }
