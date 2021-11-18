@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // import About_us_page from '../../Pages/AboutPage/About_us_page';
 // import About_us_page from '../../Pages/AboutPage/Aboutpage';
 import footer from './footer.module.css'
-import About_us_page from '../../Pages/AboutPage/About_us_page';
+// import About_us_page from '../../Pages/AboutPage/Aboutpage';
 
 
 const footerSection = () => {
@@ -12,7 +12,7 @@ const footerSection = () => {
         <div>
             <div className={footer.footerOne}>
                 <div className={footer.footerOneContent}>
-                    <Link className={footer.link} to="/AboutPage">About Us</Link>
+                    <Link className={footer.link} to="/Aboutpage">About Us</Link>
                     <Link className={footer.link} to="/">Contact Us</Link>
                     <Link className={footer.link} to="/Termscon.jsx">Terms &#38; Conditions</Link>
                     <Link className={footer.link} to="/">Privacy &#38; Policy</Link>

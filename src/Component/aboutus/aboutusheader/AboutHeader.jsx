@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Logo from "../../../Assets/Logo-min.png"
-import "./AboutHeader.css"
+// import "./AboutHeader.css"
 
  const About_page_header = () => {
     return (

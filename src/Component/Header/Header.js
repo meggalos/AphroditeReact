@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../../Assets/Logo1-min.png'
-import './header.css';
+import headerOne from './header.module.css';
 import { Link } from 'react-router-dom';
 import Login from './../login/login';
 
