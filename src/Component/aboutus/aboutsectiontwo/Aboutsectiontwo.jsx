@@ -1,11 +1,11 @@
 import React from 'react'
 // import "./About_page_section_2.css"
-import "./Aboutsectiontwo.css"
+import AboutSection_2 from"./Aboutsectiontwo.module.css"
 
 function Aboutsectiontwo() {
     return (
         <div>
-            <div className="section-two">
+            <div className={AboutSection_2.sectiontwo}>
                     <p> <b>APHRODITE </b> is a software application developed with the aim of matching people to make meaningful relationships. We help those who are generally term picky with high standards and we call them self-aware persons to meet their partners based
                             on their preferences. The application is target at users within the age range of 18-50.
                             <br /><br /> We use GPS technology and the government's database to confirm users’ identity; to ensure all users are safe with no sinister motive. We ensure proper authentication of documents to prevent catfishing.

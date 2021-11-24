@@ -1,0 +1,33 @@
+
+.topmessage{
+    margin: 30px;
+    font-size: 30px;
+    color: black;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.textbody{
+    margin: 30px;
+    font-size: 18px;
+    color: black;
+    text-align:justify
+}
+.textbody p{
+    font-size: 17px;
+    margin: 30px;
+}
+.textbody h3{
+    margin: 30px;
+}
+.classone{
+    background-color: blanchedalmond;
+}
+.classone h3{
+    background-color: blueviolet;
+    border:1px solid black;
+    width:60%;
+}
+.classone h3:hover{
+    cursor: pointer;
+}

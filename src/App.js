@@ -8,6 +8,7 @@ import Terms_and_conditions from "./Pages/termscondPage/Termscon"
 import Aske_Question from "./Pages/Askequestionpage/askequestion"
 
 
+
 function App() {
   return (
     <Router>

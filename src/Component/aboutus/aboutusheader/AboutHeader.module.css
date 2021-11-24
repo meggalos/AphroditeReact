@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
 
 
-nav{
+.nav{
     display: flex;
     /* justify-content: space-around; */
     justify-content: space-evenly;
@@ -9,19 +9,19 @@ nav{
     border-bottom: 1px solid #dad9d9;
 }
 
-nav{
+.nav{
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
-nav img{
+.nav img{
     margin:0 30px;
     width:200px;
 }
 
 
-.signin-btn{
+.signinbtn{
     margin-right:30px;
     width:154px;
     height: 40px;

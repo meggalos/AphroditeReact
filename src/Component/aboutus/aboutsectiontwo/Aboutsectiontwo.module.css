@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
-.section-two{
+.sectiontwo{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
     color:black;
     font-size: 20px;
 }
-.section-two p{
+.sectiontwo p{
     margin:50px;
 }
 

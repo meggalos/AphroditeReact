@@ -1,18 +1,19 @@
 import React from "react";
-import "./Questionbody.css"
+import Question from "./Questionbody.module.css"
 
 function Askquestion_body() {
   return (
     <div>
-      <div className="top-message">
+      <div className= {Question.topmessage}>
         Frequently Asked Questions (FAQs) on Aphrodite TOP QUESTIONS Here is a
         list of the top questions we receive from users just starting out on
         Aphrodite.
       </div><br/><br />
 
-      <div className="text-body">
+      <div className={Question.textbody}>
 
-      <h3>
+      <div className={Question.classone}>
+        <h3>
         General How can I change the amount of mail notifications I receive?
       </h3>
 
@@ -25,7 +26,7 @@ function Askquestion_body() {
         notification settings by going to Settings. Click the pencil icon next
         to 'Mail settings' and choose your preferred notification settings.
         Don't forget to save your changes!
-      </p><br/>
+      </p><br/></div>
 
       <h3>How can I change what I’m looking for?</h3>
 

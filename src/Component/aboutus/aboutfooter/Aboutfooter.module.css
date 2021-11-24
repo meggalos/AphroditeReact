@@ -52,7 +52,7 @@ a{
     line-height: 20px;
     font-family: raleway,sans-serif;
 }
-.last-content{
+.lastcontent{
     display: flex;
     width: 40%;
     text-align: center;
@@ -60,7 +60,7 @@ a{
     align-items: center;
     margin-top:37px;
 }  
-.last-content h2{
+.lastcontent h2{
     font-family: poppins,sans-serif;
     font-weight: 600;
     font-size:34px;
@@ -68,7 +68,7 @@ a{
     color:#ff0000
 }
 
-.last-content p{
+.lastcontent p{
     font-family: raleway,sans-serif;
     font-weight: 400;
     font-size:14px;

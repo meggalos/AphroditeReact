@@ -14,8 +14,11 @@ const Footer = () => {
                     <Link className="link" to="/AboutPage">About Us</Link>
                     <Link className="link" to="/">Contact Us</Link>
                     <Link className="link" to="/Termscon.jsx">Terms &#38; Conditions</Link>
-                    <Link className="link" to="/">Privacy &#38; Policy</Link>
+                     {/* new */}
+                    <Link className="link" to="/Privacy.jsx">Privacy &#38; Policy</Link>
                     <Link className="link" to="/askequestion.jsx">FAQs</Link>
+                   
+                    
                 </div>
             </div>
             <div class="footer-two">
